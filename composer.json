@@ -1,0 +1,24 @@
+{
+    "name": "lenzy/support",
+    "description": "Pacote com componentes para auxiliar sua aplicação",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matheus Gomes",
+            "email": "contato@lenzy.com.br"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Lenzy\\Support\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
